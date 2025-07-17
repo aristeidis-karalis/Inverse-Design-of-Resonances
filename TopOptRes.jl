@@ -34,6 +34,7 @@ Rpml = 1e-12    # Tolerance for PML reflection
 # Optimization hyperparameters
 σ1phase = -1im    # phase of σ1     ===>>> 1im for Figure 4
 
+# M = 21 can be chosen by running on M+N = 24 nodes (see line 72)     ===>>> M+N = 20+4 = 24 also for Figure 4
 αC = 0.036          # multiplicative factors of C errors     ===>>> 0.022 for Figure 4
 sqrtM = 0           # extra multiplicative factor of C errors, choose 1, or 0 to divide by sqrt(M)
 
