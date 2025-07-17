@@ -9,7 +9,7 @@ include("QNMT.jl")
 
 # Filter specifications
 λo = 1     # Wavelength
-N = 3     # filter order
+N = 3     # filter order     ===>>> 4 for Figure 4
 fbandwidth = 0.01   # filter bandwidth in % of 1/λo
 filtertype = "bandpass"   #["bandpass", "bandstop"]
 profile = "ellip"    #["butter","cheby","icheby","ellip"]
@@ -32,9 +32,9 @@ Dpml = 0.5      # Length of PML in wavelengths
 Rpml = 1e-12    # Tolerance for PML reflection
 
 # Optimization hyperparameters
-σ1phase = -1im    # phase of σ1
+σ1phase = -1im    # phase of σ1     ===>>> 1im for Figure 4
 
-αC = 0.036          # multiplicative factors of C errors
+αC = 0.036          # multiplicative factors of C errors     ===>>> 0.022 for Figure 4
 sqrtM = 0           # extra multiplicative factor of C errors, choose 1, or 0 to divide by sqrt(M)
 
 ptotLim_λ = []      # total-material constraint (use [] for no constraint)
