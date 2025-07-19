@@ -4,6 +4,7 @@ using LinearAlgebra, KrylovKit
 using LeastSquaresOptim
 using JLD
 using MPI
+push!(LOAD_PATH,"../")
 include("filter_params.jl")
 include("QNMT.jl")
 
