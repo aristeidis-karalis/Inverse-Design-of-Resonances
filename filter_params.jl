@@ -1,4 +1,4 @@
-using DSP   # Requires v0.8.0 or higher, otherwise use fs = any value larger than 2*fr
+using DSP   # Requires v0.8.0 or higher, otherwise use fs = any value larger than 2*fr (e.g. 4.1*fr) and change line 29 to: p = sort(-fil.p*0.5im*fs, by=real)
 
 ## Calculate poles and C of target spectral response
 function calc_poles(N, fcenter,fbandwidth, profile,filtertype, pass,stop)
