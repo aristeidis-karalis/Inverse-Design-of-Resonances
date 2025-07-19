@@ -1,6 +1,7 @@
 using Plots
 using LinearAlgebra
 using LeastSquaresOptim
+push!(LOAD_PATH,"../")
 include("filter_params.jl")
 include("QNMT.jl")
 include("LCladder.jl")
