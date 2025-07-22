@@ -233,6 +233,7 @@ function allConstraints(x,es,ms,res,pol,ωc,αC,Lnlim,γptot)
     return F, J
 end
 
-# d1,S1,C1,Sb1,e1,res,F1,pltd1,pltS1,pltd0,pltS0 = AlternateStack_d_design(3,0.01,"cheby",0.25,25,0, [3.4 1.4],'m',14,[], 1.5,10,[],[],[0;0.75]);
-# d1c,e1c = d_clean(d1,e1,0.02);
-# d2,S2,C2,Sb2,e2,res,F2,pltd2,pltS2,_,_ = AlternateStack_d_design(3,0.01,"cheby",0.25,25,0, [3.4 1.4],'m',d1c,e1c, 1.5,10,[],[],[0;0.75]);
+d1,S1,C1,Sb1,e1,res,F1,pltd1,pltS1,pltd0,pltS0 = AlternateStack_d_design(3,0.01,"cheby",0.25,25,0, [3.4 1.4],'m',14,[], 1.5,10,[],[],[0;0.75]);
+d1c,e1c = d_clean(d1,e1,0.02);
+d2,S2,C2,Sb2,e2,res,F2,pltd2,pltS2,_,_ = AlternateStack_d_design(3,0.01,"cheby",0.25,25,0, [3.4 1.4],'m',d1c,e1c, 1.5,10,[],[],[0;0.75]);
+pltS2
