@@ -1,5 +1,5 @@
 This repository contains the codes for the results in the article:
-* Mo Chen, Steven G. Johnson, Aristeidis Karalis, "Inverse design of multiresonance filters via quasi-normal mode theory", arxiv:2504.10219, April 2025
+* Mo Chen, Steven G. Johnson, Aristeidis Karalis, "Inverse design of multiresonance filters via quasi-normal mode theory", Optics Express, Vol. 34, Issue 4, pp. 5729-5752 (2026) (doi: 10.1364/OE.579219)
 
 Before running any code, you need to change some files in the julia package "LeastSquaresOptim" to enable a more efficient version of the Levenberg-Marquardt algorithm (see article Appendix B). In the julia package environment, do "dev LeastSquaresOptim". Within "~/.julia/dev/LeastSquaresOptim/", replace the appropriate files with those in the "LeastSquaresOptim/" folder of this repository.
 
